@@ -9,14 +9,11 @@ order = [
   ["rye", "ham", "munster", "mayo"]
 ]
 def sandwich_request(ingredients, order) 
-  ingredients[0].each do |bread|
-    if order[0] == bread
-      puts "yeah"
-    end
-  end
+  
   # your code here!
 end
-sandwich_request(ingredients, order[1])
+sandwich_request()
+puts ingredients
 
 
 # # example city_info hash
