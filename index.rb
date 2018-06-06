@@ -13,9 +13,9 @@ def sandwich_request(ingredients, order)
     puts order_ingredients
     ingredients[0].each do |ingredients|
       puts "#{order_ingredients} and #{ingredients}"
-    #   if order_ingredients == ingredients
-    #     puts "yeah"
-    #   end 
+      if order_ingredients == ingredients
+        puts "yeah"
+      end 
     end
   end 
   # your code here!
