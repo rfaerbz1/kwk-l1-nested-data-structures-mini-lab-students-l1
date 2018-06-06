@@ -12,7 +12,7 @@ def sandwich_request(ingredients, order)
   order.each do |order_ingredients|
     puts order_ingredients
     ingredients.each do |ingredients|
-      puts ingredients
+      puts "#{order_ingredients} and #{ingredients}"
     #   if order_ingredients == ingredients
     #     puts "yeah"
     #   end 
